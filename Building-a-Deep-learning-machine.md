@@ -23,12 +23,12 @@ I have done my best to include elements that are relevant to beginners, this is 
 
 ## 0. The right parts
 When building a deep learning rig you will need the following components:
-1) Motherboard
-2) CPU
-3) RAM
-4) GPU
-5) Power supply unit
-6) Cooler
+ 1. Motherboard
+ 2. CPU
+ 3. RAM
+ 4. GPU
+ 5. Power supply unit
+ 6. Cooler
 
 ## 1. Power Supply Unit (PSU)
 Historically you would have needed to buy a power supply unit that could handle loads of >1200 Watts to run your deep learning machine, most of which would have been used by your GPUs. For example old GPU archicectures, such as Titan X's Maxwell architecture, required ~400W to run. After the release of the 10X0 series the gb/wattage requirement has been more than halved. At peak loads most 10X0 series GPUs will run at 200W see [here](http://www.tomshardware.com/reviews/nvidia-geforce-gtx-1080-pascal,4572-10.html). The remainder of the Wattage is distributed across your CPU, storage, memory and cooling system. Of the four the CPU consumes the most power. Most modern processors will consumer between 75W-120W. For example the Intel I5 6600K chip comes out at 91W. In some cases the chipset may have the option to consume more - this is traditionally used by over-clockers, so not relevant here.
@@ -37,10 +37,10 @@ In either case, recent advances in GPUs have dramatiaclly decreased the total po
 
 ## 2. Motherboards
 If the CPU is the brain of the computer then the motherboard is nervous system. It is the piece of equipement that holds your components together and coordinates processing between RAM, GPU, CPU and storage. There are a couple of things you need to watch out for with a motherboard, they are:
-1) The number of PCIe lanes
-2) CPU support
-3) Support for SSD M.2 NVME
-4) Design/layout of components
+ 1. The number of PCIe lanes
+ 2. CPU support
+ 3. Support for SSD M.2 NVME
+ 4. Design/layout of components
 
 ## 2.1 PCIe lanes
 PCIe stands for __Peripheral Component Interconnect Express__. It is a serial expansion bus standard for connecting a computer to one or more peripheral. In short this is where your graphics cards plugs into the motherboard.  There are different  varieties of PCIe lanes and consequently different speeds. As of 2016 PCIe 3.1 16x are the fastest. The 16x is the number of lanes that are accessable for data transfer. These types of PCIe's have transfer speeds of up to 32Gb/second. Other versions are slower.
@@ -71,10 +71,10 @@ The GPUs are the most important part of your Deep Learning build since it is her
 
 ### 3.3 What GPU Cards should I buy?
 If you wanted to max out your local rig you could opt to buy 4 Titan X (Pascal architectures) however the increase in speed would not be commiserate with the increase in price versus other options. Below are the costs for prototypical cards are included, along with their wattage, CUDA cores, RAM and Teraflops. 
-Titan X (Pascal architectures) - $1200 MSRP, 250W, 3584, 12 GBDDR5X, 11 TFLOPs
-GTX 1080 (Pascal architecture) - $599 MSRP, 180W, 2560, 8GB GDDR5X, 8.9 TFLOPs
-GTX 1070 (Pascal architecture) - $379 MSRP, 150W, 1920, 8GB GDDR5, 6.5 TFLOPs
-GTX 1060 (Pascal architecture) - $300 MSRP, 120W, 1280, 6GB GDDR5, 4.4 TFLOPs
+- Titan X (Pascal architectures) - $1200 MSRP, 250W, 3584, 12 GBDDR5X, 11 TFLOPs
+- GTX 1080 (Pascal architecture) - $599 MSRP, 180W, 2560, 8GB GDDR5X, 8.9 TFLOPs
+- GTX 1070 (Pascal architecture) - $379 MSRP, 150W, 1920, 8GB GDDR5, 6.5 TFLOPs
+- GTX 1060 (Pascal architecture) - $300 MSRP, 120W, 1280, 6GB GDDR5, 4.4 TFLOPs
 For a full list of features check out [NVidia's site](https://www.nvidia.com/en-us/geforce/products/10series) and [WCCFTECG](http://wccftech.com/nvidia-geforce-gtx-1060-final-specifications/).
 
 #### 3.3.1 So what do all these features mean?
@@ -99,10 +99,11 @@ That is to say buying founder's edition cards are probably not worth the investm
 ## 4 What components matter for deep learning?
 Since most of the compute occurs on the GPUs having a powerful CPU will not add (much) to speed, nor will necessarily buying the most expensive RAM. Consider the different transfer speeds for RAM:
 DDR4 data transfer rate:
-DDR4 2133：17 GB/s
-DDR4 2400：19.2 GB/s
-DDR4 2666：21.3 GB/s
-DDR4 3200：25.6 GB/s
+- DDR4 2133：17 GB/s
+- DDR4 2400：19.2 GB/s
+- DDR4 2666：21.3 GB/s
+- DDR4 3200：25.6 GB/s
+
 We can calculate the total RAM bandwidth by multiplying the numbers above by the number of channels your motherboard supports, we use the formula below for a 64-bit architecture:
 '''
 bandwidth GB/S = RAM clock in GHz x Memory Channels of CPU x 64 x 8^{-1}
@@ -132,25 +133,4 @@ __CPU:__[Intel Core i7-7700K Kaby Lake Quad-Core 4.2 GHz LGA 115](https://www.ne
 
 __Motherboard__:
 
-## Conclusions
 
-GPU: GTX 680 or GTX 960 (no money); GTX 980 (best performance); GTX Titan (if you need memory); GTX 970 (no convolutional nets)
-
-CPU: Two threads per GPU; full 40 PCIe lanes and correct PCIe spec (same as your motherboard); > 2GHz; cache does not matter;
-
-RAM: Use asynchronous mini-batch allocation; clock rate and timings do not matter; buy at least as much CPU RAM as you have GPU RAM;
-
-Hard drive/SSD: Use asynchronous batch-file reads and compress your data if you have image or sound data; a hard drive will be fine unless you work with 32 bit floating point data sets with large input dimensions
-
-PSU: Add up watts of GPUs + CPU + (100-300) for required power; get high efficiency rating if you use large conv nets; make sure it has enough PCIe connectors (6+8pins) and watts for your (future) GPUs
-
-Cooling: Set coolbits flag in your config if you run a single GPU; otherwise flashing BIOS for increased fan speeds is easiest and cheapest; use water cooling for multiple GPUs and/or when you need to keep down the noise (you work with other people in the same room)
-
-Motherboard: Get PCIe 3.0 and as many slots as you need for your (future) GPUs (one GPU takes two slots; max 4 GPUs per system)
-
-Monitors: If you want to upgrade your system to be more productive, it might make more sense to buy an additional monitor rather than upgrading your GPU
-
-
-
-
-Setting up your deep learning machine 
