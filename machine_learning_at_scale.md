@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Machine Learning At Scale : 9 Performance Tips
+title: Machine Learning At Scale - 9 Performance Tips
 description:   
+image: assets/images/pic11.jpg
 nav-menu: yes
 tags:
  - Data Science
@@ -14,15 +15,15 @@ tags:
 ### TL;DR
 Data scientists should think about the time complexity of running programs along with how to distribute workloads. Most naive methods won’t work or require extremely expensive equipment to run properly. Instead consider these 9 Tips to improve Machine Learning Algorithms at Scale:
 
-Trade-off accuracy for simplicity.
-Think parallel and distributed implementations.
-Forget simulation unless you can prove bounded convergence.
-Build models step wise, i.e. with implementation in mind.
-Know thy time/storage complexities.
-Leverage your math skills heavily to reduce time/space complexity.
-If you have to invert a matrix check if there are shortcuts.
-Use in memory methods and increase your RAM.
-Thread or enable multi-processing.
+1. Trade-off accuracy for simplicity.
+2. Think parallel and distributed implementations.
+3. Forget simulation unless you can prove bounded convergence.
+4. Build models step wise, i.e. with implementation in mind.
+5. Know thy time/storage complexities.
+6. Leverage your math skills heavily to reduce time/space complexity.
+7. If you have to invert a matrix check if there are shortcuts.
+8. Use in memory methods and increase your RAM.
+9. Thread or enable multi-processing.
 
 ## Why you should care?
 Coming from a statistics background, I’ve always been curious about the practicality of our methods in the world of big data.
