@@ -1,0 +1,616 @@
+    1  python
+    2  pip --version
+    3  sudo apt install python-pip
+    4  python -V
+    5  sudo apt-get update
+    6  sudo apt-get -y upgrade
+    7  python3 -V
+    8  sudo apt-get install -y python3-pip
+    9  sudo apt-get install build-essential libssl-dev libffi-dev python-dev
+   10  pip install virtualenv
+   11  sudo pip install --upgrade
+   12  sudo pip install --upgrade pip
+   13  pip3 install jupyter
+   14  pip install jupyter
+   15  sudo pip install jupyter
+   16  history
+   17  history >> ~/Desktop/setup0.sh
+   18  quit
+   19  exit
+   20  sudo hdparm -Tt /dev/sda
+   21  dd if=/dev/zero of=/tmp/output conv=fdatasync bs=384k count=1k; rm -f /tmp/output
+   22  sudo update-pciids
+   23  lspci
+   24  sudo lspci -v -s 01:00.0
+   25  sudo lspci -v -s 02:00.0
+   26  sudo apt-get install hardinfo
+   27  hardinfo
+   28  nvidia-smi
+   29  nvidia-settings
+   30  pip install python gpgme
+   31  sudo apt-get install python-gpgme
+   32  cd ~/Downloads/
+   33  nano run_cuda.sh
+   34  source run_cuda.sh 
+   35  nano run_cuda.sh
+   36  nano run_cuda2.sh
+   37  cd /usr/local/cuda/lib64
+   38  ls
+   39  cd ~/Downloads/
+   40  source run_cuda2.sh 
+   41  ls
+   42  tar xvzf cudnn-8.0-linux-x64-v5.1.tgz 
+   43  nano run_cuda2.sh 
+   44  source run_cuda2.sh 
+   45  cp make/config.mk .
+   46  sudo ldconfig
+   47  ls
+   48  ls -la
+   49  cd cuda/
+   50  ls
+   51  ls -la
+   52  cd ..
+   53  find / -name 'config.mk'
+   54  sudo find / -name 'config.mk'
+   55  sudo ldconfig --verbose
+   56  cp make/config.mk .
+   57  sudo find / -folder "make"
+   58  sudo find / -d "make"
+   59  sudo find /-type -d "make"
+   60  sudo find / -type -d "make"
+   61  sudo find / -type d "make"
+   62  sudo find / -type d "*/make"
+   63  sudo find / -type d /make
+   64  sudo find / -type d -name "make"
+   65  cd /usr/share/doc/make
+   66  ls
+   67  ls -la
+   68  cd /
+   69  find / -name "mxnet"
+   70  sudo find / -name "mxnet"
+   71  sudo apt-get update
+   72  sudo apt-get -y install git
+   73  cd ~/
+   74  ls
+   75  nano install_mxnet.sh
+   76  source install_mxnet.sh 
+   77  history
+   78  history >> ~/Desktop/setup.sh
+   79  exit
+   80  ls
+   81  cd Desktop/
+   82  cd vpcKeys/
+   83  ssh -i wp.pem bitnami@http://52.207.238.122/
+   84  ssh -i wp.pem bitnami@52.207.238.122
+   85  chmod 600 wp.pem 
+   86  ssh -i wp.pem bitnami@52.207.238.122
+   87  clear
+   88  cd ..
+   89  ls
+   90  ls -la
+   91  nano .bash
+   92  nano .bashrc 
+   93  ls
+   94  virtualenv venv
+   95  ls
+   96  find / -name "python3"
+   97  sudo find / -name "python3"
+   98  virtualenv -p /usr/bin/python3 venv3
+   99  nano .bashrc 
+  100  source .bash
+  101  source .bashrc 
+  102  ve
+  103  pwd
+  104  nano .bashrc 
+  105  source .bashrc 
+  106  ve
+  107  quit
+  108  exit
+  109  sudo apt-get remove --auto-remove xia
+  110  sudo apt-get remove xia
+  111  sudo apt-get update
+  112  sudo apt-get install krita
+  113  cd ~/Downloads/
+  114  convert input.psd -channel RGBA -alpha Set -colorspace rgb output.png
+  115  convert a4.psd -channel RGBA -alpha Set -colorspace rgb output.png
+  116  convert poster.psd -channel RGBA -alpha Set -colorspace rgb output.png
+  117  clear
+  118  history
+  119  clear
+  120  ve
+  121  cd /
+  122  ls
+  123  ls -la
+  124  cd ~/
+  125  ls -la
+  126  nano .bashrc 
+  127  source .bashrc 
+  128  vw
+  129  ve
+  130  cd lsblk
+  131  lsblk
+  132  cd Desktop/
+  133  ls
+  134  cd github/
+  135  ls -la
+  136  cd DeepLearning/
+  137  ls -la
+  138  sudo apt-get install git
+  139  Jupyter --version
+  140  graphviz
+  141  deactivate
+  142  graphviz
+  143  libatlas-base-dev --version
+  144  sudo apt-get update
+  145  cd Part0GettingSetUp/
+  146  jupyter notebook
+  147  cd ..
+  148  mkdir Part2LearningMxNetFoundations
+  149  cd Part2LearningMxNetFoundations/
+  150  jupyter notebook
+  151  nano ~/.bashrc 
+  152  ve
+  153  jupyter notebook
+  154  python --version
+  155  python2
+  156  python2 -m pip install ipykernel
+  157  python2 -m ipykernel install --user
+  158  jupyter notebook
+  159  cd ..
+  160  pip install -r requirements.txt
+  161  nano freeze
+  162  l
+  163  ls 
+  164  nano requirements.txt 
+  165  pip freeze
+  166  pip install -r requirements.txt --ignore-installed
+  167  pip install --ignore-installed -r requirements.txt
+  168  nano requirements.txt 
+  169  pip install --ignore-installed -r requirements.txt
+  170  nano requirements.txt 
+  171  pip install --ignore-installed -r requirements.txt
+  172  nano requirements.txt 
+  173  pip install --ignore-installed -r requirements.txt
+  174  nano requirements.txt 
+  175  pip install --ignore-installed -r requirements.txt
+  176  nano requirements.txt 
+  177  pip install --ignore-installed -r requirements.txt
+  178  nano requirements.txt 
+  179  pip install --ignore-installed -r requirements.txt
+  180  nano requirements.txt 
+  181  pip install --ignore-installed -r requirements.txt
+  182  nano requirements.txt 
+  183  pip install --ignore-installed -r requirements.txt
+  184  git config --global joshuahtouyz "jtouyz"
+  185  git config --global user.name "jtouyz"
+  186  git config --global user.email "joshuah.touyz@gmail.com"
+  187  ssh-keygen -t rsa -b 4096 -C "joshuah.touyz@gmail.com"
+  188  eval "$(ssh-agent -s)"
+  189  ssh-add ~/.ssh/id_rsa
+  190  sudo apt-get install xclip
+  191  xclip -sel clip < ~/.ssh/id_rsa.pub
+  192  git pull
+  193  ls
+  194  cd Part2LearningMxNetFoundations/
+  195  ls
+  196  cd ..
+  197  rm -rf DeepLearning/
+  198  git clone git@github.com:jtouyz/DeepLearning.git
+  199  cd DeepLearning/
+  200  ls
+  201  git pull
+  202  jupyter notebook
+  203  exit
+  204  python2
+  205  cd ~/Desktop/github/DeepLearning/
+  206  pip freeze >> requirements.txt
+  207  gnome-system-monitor
+  208  $ sudo apt-add-repository -y ppa:teejee2008/ppa
+  209  sudo apt-add-repository -y ppa:teejee2008/ppa
+  210  sudo apt-get install conky-manager
+  211  sudo apt-get update
+  212  sudo apt-get install conky
+  213  conky -v
+  214  conky
+  215  sudo apt-get install conky-manager
+  216  conky-manager
+  217  sudp apt-get remove conky conky-manager
+  218  sudo apt-get remove conky conky-manager
+  219  sudo apt-get remove conky-std
+  220  sudo apt-get remove liblua5.1-0
+  221  monitorix -v
+  222  monitorix
+  223  monitorix.cgi
+  224  sudp apt-get install conky
+  225  sudo apt-get install conky
+  226  conky
+  227  sudo conky
+  228  cd ~/
+  229  ls -la
+  230  cd .conky/
+  231  ls
+  232  mkdir -p ~/.config/conky
+  233  conky -C > ~/.config/conky/conky.conf
+  234  conky
+  235  cd ~/.config/conky/
+  236  nano conky.conf 
+  237  cd ~/.conky/
+  238  ls
+  239  nano conky-startup.sh 
+  240  source conky-startup.sh 
+  241  fg
+  242  source conky-startup.sh 
+  243  ls
+  244  ls -la
+  245  cd ..
+  246  ls
+  247  nano conky-startup.sh 
+  248  source conky-startup.sh 
+  249  ls
+  250  cd ..
+  251  ls
+  252  cd ..
+  253  cd ~/.config/conky/
+  254  ls
+  255  nano conky.conf 
+  256  conky 
+  257  nano conky.conf 
+  258  conky
+  259  nano conky.conf 
+  260  mkdir -p ~/.config/conky
+  261  conky -C > ~/.config/conky/conky.conf
+  262  nano conky.conf 
+  263  conky &
+  264  conky killall
+  265  killall conky
+  266  find / -name "*.conkyrc"
+  267  sudo find / -name "*.conkyrc"
+  268  sudo find / -name ".conkyrc"
+  269  sudo find / -name "conkyrc"
+  270  sudo apt-get install conky-all
+  271  sudo find / -name ".conkyrc"
+  272  sudo find / -name "*.conkyrc"
+  273  conky -d
+  274  nano conky.conf 
+  275  killall conky
+  276  conky &
+  277  killall conky
+  278  sudo apt-get remove conky-all
+  279  sudo apt autoremove
+  280  sudo add-apt-repository ppa:indicator-multiload/stable-daily -y
+  281  sudo apt-get update && sudo apt-get install indicator-multiload -y
+  282  quit
+  283  exit
+  284  exit
+  285  cd ..
+  286  ls
+  287  git clone git@github.com:dmlc/mxnet-gtc-tutorial.git
+  288  sudo add-apt-repository ppa:fossfreedom/indicator-sysmonitor -y
+  289  sudo add-apt-repository ppa:fossfreedom/indicator-sysmonitor -y
+  290  sudo apt-get update && sudo apt-get install indicator-sysmonitor -y
+  291  sudo sensors-detect
+  292  sensors
+  293  sudo apt-get install nvclock
+  294  nvidia-smi -q -d temperature
+  295  nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader
+  296  nvidia-smi --query-gpu=temperature.gpu --format=csv
+  297  nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader
+  298  nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader |head
+  299  nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader |head 1
+  300  nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader |head -n 1
+  301  nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader |tail -n 1
+  302  nvidia-smi --query-gpu=watts.gpu --format=csv,noheader |tail -n 1
+  303  nvidia-smi
+  304  nvidia-smi --query-gpu=power.gpu --format=csv,noheader |tail -n 1
+  305  nvidia-smi --query-gpu=power.gpu --format=csv,noheader 
+  306  nvidia-smi
+  307  history
+  308  cd Desktop/github/DeepLearning/
+  309  git add *
+  310  git commit -m "updated mxnet"
+  311  git push origin master
+  312  git --config
+  313  git config --global
+  314  git config --global --get-all
+  315  git config --get-all
+  316  git config --list
+  317  git push origin master
+  318  git pull
+  319  sudo apt-get install tmux
+  320  tmux
+  321  nano /home/joshuah/.local/share/jupyter/kernels/python3/kernel.json
+  322  venv3
+  323  python
+  324  git pull
+  325  ls
+  326  cd Part3FoundationsWMxNet/
+  327  l
+  328  ve
+  329  pip install data_iter
+  330  python --version
+  331  cd Desktop/github/DeepLearning/
+  332  ls
+  333  cd Part3FoundationsWMxNet/
+  334  jupyter notebook
+  335  ve
+  336  jupyter notebook
+  337  pip install graphviz
+  338  jupyter notebook
+  339  python --version
+  340  jupyter notebook
+  341  deactivate
+  342  ve3
+  343  python --version
+  344  ls -la
+  345  jupyter notebook
+  346  cd ~/
+  347  ls
+  348  cd venv
+  349  ls
+  350  cd ..
+  351  ls
+  352  find / -name "requirements.txt"
+  353  sudo find / -name "requirements.txt"
+  354  cd /home/joshuah/Desktop/github/DeepLearning/
+  355  ls
+  356  nano requirements.txt 
+  357  pip install -r requirements.txt --ignore-installed
+  358  cp requirements.txt requirements2.txt 
+  359  nano requirements
+  360  nano requirements.txt 
+  361  pip install -r requirements.txt --ignore-installed
+  362  jupyter notebook
+  363  python --version
+  364  pip freeze
+  365  cd ~/
+  366  ls -la
+  367  nano .bashrc 
+  368  cd ~/Desktop/github/DeepLearning/
+  369  python --version
+  370  jupyter notebook
+  371  jupyter --path
+  372  python3
+  373  jupyter notebook -python3
+  374  jupyter notebook --help-all
+  375  jupyter notebook
+  376  pip install jupyter
+  377  jupyter kernelspec install-self --user
+  378  ipython kernel install
+  379  jupyter notebook
+  380  cat ~/Library/Jupyter/kernels/python3/kernel.json
+  381  history | grep "path
+  382  "
+  383  jupyter --path'
+  384  jupyter --path
+  385  /home/joshuah/.jupyter
+  386  cd /home/joshuah/.jupyter
+  387  ls
+  388  nano migrated 
+  389  cd /usr/local/etc/jupyter
+  390  cd /usr/local/etc/
+  391  ls
+  392  ls -la
+  393  cd /home/joshuah/.jupyter
+  394  ls -la
+  395  cd /usr/local/share/jupyter
+  396  ls
+  397  ls -la
+  398  cd nbextensions/
+  399  ls
+  400  find / -name 'kernel.json'
+  401  sudo find / -name 'kernel.json'
+  402  nano /home/joshuah/.local/share/jupyter/kernels/python2/kernel.json
+  403  nano /home/joshuah/.local/share/jupyter/kernels/python3/kernel.json
+  404  nano /home/joshuah/.local/share/jupyter/kernels/python2/kernel.json
+  405  jupyter notebook
+  406  cd ~/Desktop/github/DeepLearning/
+  407  jupyter notebook
+  408  pip3 install -r requirements.txt 
+  409  pip3 install graphviz
+  410  jupyter notebook
+  411  cd ..
+  412  jupyter notebook
+  413  deactivate
+  414  ve
+  415  pip install cv2
+  416  jupyter notebook
+  417  pip install matplotlib
+  418  ls
+  419  cd DeepLearning/
+  420  pip install -r requirements2.txt 
+  421  cd ..
+  422  jupyter notebook
+  423  deacticate
+  424  nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader | tail -n 1
+  425  nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader
+  426  nvidia-smi
+  427  sudo lshw -C memory
+  428  dmidecode
+  429  sudo dmidecode
+  430  nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader 
+  431  nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader | tail -n 2
+  432  nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader | tail -n 2 | head -n 1
+  433  free -m
+  434  sudo apt-get install texlive-full
+  435  sudo apt-get install texmaker
+  436  pip isntall Pandoc
+  437  pip install Pandoc
+  438  sudo apt-get install texlive-latex-extra pandoc
+  439  ls
+  440  cd Desktop/github/
+  441  l
+  442  s
+  443  l
+  444  ls
+  445  cd DeepLearning/
+  446  ls
+  447  git pull
+  448  git add *
+  449  git status
+  450  git commit -m 'udpated notebooks mxnet'
+  451  git push origin master
+  452  ve
+  453  jupyter notebook
+  454  cd ..
+  455  l
+  456  cd pythonNotebooks/
+  457  ls
+  458  cd ..
+  459  cd jtouyz.github.io/
+  460  l
+  461  ls
+  462  cd ..
+  463  clear
+  464  ls
+  465  cd mxnet-gtc-tutorial/
+  466  ls
+  467  nano tutorial.ipynb 
+  468  jupyter-notebook 
+  469  pip upgrade mxnet
+  470  libatlas-base-dev --version
+  471  libatlas-base-dev -version
+  472  sudo pip install mxnet --upgrade
+  473  pip install --upgrade pip
+  474  jupyter-notebook 
+  475  ve
+  476  cd Desktop/github/DeepLearning/
+  477  git pull
+  478  jupyter-notebook 
+  479  git pull
+  480  git add *
+  481  git commit -m "adding optimization notebooks"
+  482  git status
+  483  git push origin master
+  484  cd ..
+  485  l
+  486  ls
+  487  cd //
+  488  cd ~/Desktop/
+  489  ls
+  490  cd Blog/
+  491  mkdir UpSkill
+  492  unzip ~/Downloads/Upskill\ Materials.zip -d ./UpSkill/
+  493  cd ~/Downloads/
+  494  unzip Upskill\ Materials.zip 
+  495  unzip Upskill\ Materials
+  496  cd ~/Desktop/github/
+  497  ls
+  498  cd DeepLearning/
+  499  cd ..
+  500  cd DeepLearning/
+  501  ls
+  502  cd Part
+  503  cd Part0GettingSetUp/
+  504  ls
+  505  jupyter notebook
+  506  pip install jupyterthemes
+  507  jt -l
+  508  jt -t monokai
+  509  jupyter notebook
+  510  jt -t onedork
+  511  jupyter n
+  512  jupyter notebook
+  513  jt -t onedork chesterish
+  514  jt -t chesterish
+  515  jupyter notebook
+  516  jt -t grade3 -T -N
+  517  jupyter notebook
+  518  jt -t grade3 -T -N -nf Avenir
+  519  jt -t grade3 -T -N -f avenir
+  520  jt -t grade3 -f avenir -T -N
+  521  jt -t grade3 -f robot -T -N
+  522  jt -t grade3 -f roboto -T -N
+  523  jupyter notebook
+  524  $ jupyter nbconvert --to markdown notebook.ipynb --stdout
+  525  $ jupyter nbconvert --to html 100.ipynb --stdout
+  526  jupyter nbconvert --to html 100.ipynb --stdout
+  527  ls
+  528  jupyter nbconvert --to html 100.ipynb --stdout >> 100.html
+  529  ls | grep *.ipynb
+  530  ls | grep .ipynb
+  531  ls | grep .ipynb >> to_convert.txt
+  532  jupyter nbconvert --to html 100.ipynb 101ListsVsArrays.ipynb 102DotProducts.ipynb 103TimeComplexityDotProduct.ipynb 104NumpyMatrices.ipynb 105GeneratingNumPyArrays.ipynb 106MatrixOperations.ipynb 107SolvingALinearSystem.ipynb 108LoadingData.ipynb 109Joins.ipynb 110MatPlotLib.ipynb 111SciPy.ipynb 
+  533  mkdir html
+  534  mv *.html ./html/
+  535  ls
+  536  cd html/
+  537  ls
+  538  cd ..
+  539  jupyter nbconvert --to pdf 100.ipynb 
+  540  pip isntall pandoc
+  541  pip install pandoc
+  542  jupyter nbconvert --to pdf 100.ipynb 
+  543  pip install Pandoc
+  544  jupyter nbconvert --to pdf 100.ipynb 
+  545  git add *
+  546  git commit -m "uploaded html files"
+  547  git push origin master
+  548  jupyter notebook
+  549  cd ..
+  550  ls
+  551  jupyter notebook
+  552  pip install boto3
+  553  pip install awscli
+  554  aws s3 list
+  555  aws s3 ls
+  556  aws configure
+  557  aws s3 ls
+  558  aws ec2 describe-instances
+  559  deactivate
+  560  aws ec2 describe-instances
+  561  pip install awscli
+  562  aws configure
+  563  aws s3 ls
+  564  aws configure
+  565  aws s3 ls
+  566  aws s3 help
+  567  aws s3 mb DeepLearningDojo
+  568  aws s3 mb s3://DeepLearningDojo
+  569  aws s3 scp ~/Desktop/github/DeepLearning/Part0GettingSetUp/html/ s3://DeepLearningDojo --recursive
+  570  aws s3 cp ~/Desktop/github/DeepLearning/Part0GettingSetUp/html/ s3://DeepLearningDojo --recursive
+  571  aws s3 ls s3://DeepLearningDojo
+  572  history
+  573  cd Sessions/
+  574  ls
+  575  mkdir html
+  576  jupyter nbconvert --to html AM_100_LinearAlgebra.ipynb AM_101_ProbabilityInformationTheory.ipynb AM_102_StructureProbablisticModels.ipynb NC_101_numericalcomputation.ipynb NC_102_gradient_optimization.ipynb NC_103_gradient_optimization.ipynb ML_100_Intro.ipynb 
+  577  mv *.html ./html
+  578  ls
+  579  history
+  580  aws s3 mb s3://DeepLearningDojo/Workshops/1Introduction
+  581  aws cp ~/Desktop/github/DeepLearning/Sessions/html/ s3://DeepLearningDojo/Workshops/1Introduction
+  582  aws s3 cp ~/Desktop/github/DeepLearning/Sessions/html/ s3://DeepLearningDojo/Workshops/1Introduction
+  583  aws s3 cp ~/Desktop/github/DeepLearning/Sessions/html/ s3://DeepLearningDojo/Workshops/1Introduction --recursive
+  584  cd Desktop/vpcKeys/
+  585  ls
+  586  ssh -i myUSEAST.pem ec2-user@54.166.222.198
+  587  ssh -i myUSEAST.pem ec2-user@54.89.1.177
+  588  ssh -i myUSEAST.pem ec2-user@wget http://pypi.python.org/packages/source/p/pip/pip-1.1.tar.gz#md5=62a9f08dd5dc69d76734568a6c040508
+  589  ssh -i myUSEAST.pem ec2-user@54.211.75.243
+  590  ssh -i myUSEAST.pem ec2-user@1.amazonaws.com
+  591  ssh -i myUSEAST.pem ec2-user@52.71.252.45
+  592  ssh -i myUSEAST.pem ec2-user@54.175.171.107
+  593  ve
+  594  cd ~/Desktop/github/DeepLearning/
+  595  ls
+  596  mkdir blogs
+  597  jupyter notebook
+  598  mv -rf blogs/ ~/Desktop/github/
+  599  mv -rf ./blogs/ ~/Desktop/github/
+  600  mv -f ./blogs/ ~/Desktop/github/
+  601  ls
+  602  cd ..
+  603  ls
+  604  cd blogs/
+  605  git init
+  606  git add .
+  607  git commit -m "Uploading first blog post"
+  608  git remote add origin git@github.com:jtouyz/blog_posts.git
+  609  git push -u origin master
+  610  echo "# blog_posts" >> README.md
+  611  git add .
+  612  git commit -m "Initializing README.md"
+  613  git push origin master
+  614  jupyter notebook
+  615  history
+  616  history >> history.txt
